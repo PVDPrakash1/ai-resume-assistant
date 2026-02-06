@@ -1,0 +1,7 @@
+.job-description-textarea{
+    width: 400px;
+    height:200px;
+    border-radius:10px;
+    box-shadow: 10px;
+    border:1px solid gray;
+}

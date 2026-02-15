@@ -1,0 +1,26 @@
+.progress-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bg {
+  fill: none;
+  stroke: #eee;
+}
+
+.progress-ring {
+  fill: none;
+  stroke: #4caf50;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 1s ease;
+}
+
+.progress-text {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}

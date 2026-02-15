@@ -5,3 +5,42 @@
     box-shadow: 10px;
     border:1px solid gray;
 }
+
+.textarea-wrapper {
+  width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.textarea-label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.textarea-field {
+  min-height: 120px;
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.textarea-field:focus {
+  border-color: #4cafef;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
+}
+
+.textarea-footer {
+  margin-top: 6px;
+  font-size: 12px;
+  text-align: right;
+  color: #666;
+}

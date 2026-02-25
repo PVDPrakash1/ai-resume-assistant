@@ -3,6 +3,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin: 20px auto;
+  width: 100%;
 }
 
 .progress-bg {
@@ -21,6 +23,13 @@
 
 .progress-text {
   position: absolute;
-  font-size: 20px;
+  font-size: clamp(16px, 6vw, 24px);
   font-weight: bold;
+  color: #4caf50;
+}
+
+@media (max-width: 600px) {
+  .progress-wrapper {
+    margin: 15px auto;
+  }
 }

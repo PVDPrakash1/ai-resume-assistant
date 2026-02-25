@@ -1,35 +1,48 @@
 .job-description-textarea{
-    width: 400px;
-    height:200px;
-    border-radius:10px;
-    box-shadow: 10px;
-    border:1px solid gray;
+  width: 100%;
+  max-width: 400px;
+  min-height: 150px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  resize: vertical;
 }
 
 .textarea-wrapper {
-  width: 400px;
-  margin: 30px auto;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
   font-family: Arial, sans-serif;
+  gap: 8px;
 }
 
 .textarea-label {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   font-weight: 600;
   color: #333;
+  font-size: clamp(14px, 4vw, 16px);
 }
 
 .textarea-field {
   min-height: 120px;
   padding: 12px 15px;
-  font-size: 14px;
+  font-size: clamp(13px, 3.5vw, 14px);
   border: 2px solid #ddd;
   border-radius: 10px;
   outline: none;
-  resize: none;
+  resize: vertical;
   transition: all 0.3s ease;
   background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .textarea-field:focus {
@@ -40,7 +53,10 @@
 
 .textarea-footer {
   margin-top: 6px;
-  font-size: 12px;
+  font-size: clamp(11px, 2.5vw, 12px);
   text-align: right;
   color: #666;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }

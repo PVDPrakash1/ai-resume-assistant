@@ -13,7 +13,7 @@ const CircleProgress = ({ percent = 0, size = 120, stroke = 10 }) => {
   }, [percent, circumference]);
 
   return (
-    <div className="progress-wrapper" style={{ width: size, height: size }}>
+    <div className="progress-wrapper" style={{ 'width': size, 'height': size }}>
       <svg width={size} height={size}>
         <circle
           className="progress-bg"
